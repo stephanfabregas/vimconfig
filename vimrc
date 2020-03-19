@@ -1,4 +1,7 @@
 ""Colors
+if $TERM=="xterm" "For Putty, set 'Allow terminal to use xterm 256-colour mode'
+    set t_Co=256
+endif
 syntax enable "enable syntax processing
 set background=light
 colorscheme solarized "Current color scheme (may consider a change)
