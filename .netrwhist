@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/steve/Documents/courses/data_structures/week6/tree_orders'
+let g:netrw_dirhist_2='/home/steve/Documents/courses/graphs'
+let g:netrw_dirhist_3='/home/steve/Documents/work/pfizer/ldqt'
