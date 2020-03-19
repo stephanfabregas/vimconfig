@@ -9,7 +9,7 @@ Be sure to clone this repository to `~/.vim` in order to use this as your vim
 configuration.
 
 ```
-git clone https://github.com/stephanfabregas/vimrc.git
+git clone https://github.com/stephanfabregas/vimconfig.git
 ```
 
 ### Clone used vim extensions
