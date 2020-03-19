@@ -1,3 +1,11 @@
+""Putty Compatibility
+"If using vim through Putty, make sure to set the options for 'Allow terminal
+"to use xterm 256-colour mode'. It is also recommended to set Putty to indicate
+"bold using the font, not the color. Then, uncomment the following 3 lines
+"if $TERM=="xterm" "For Putty, set 'Allow terminal to use xterm 256-colour mode'
+"    set t_Co=256
+"endif
+
 ""Colors
 syntax enable "enable syntax processing
 set background=light
