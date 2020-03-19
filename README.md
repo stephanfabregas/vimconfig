@@ -29,11 +29,12 @@ git clone https://github.com/vim-syntastic/syntastic.git
 
 ### Link .vimrc
 
-In ~/ create a file called .vimrc and include one line in this file:
+In `~/` create a file called `.vimrc` and include one line in this file:
 
 ```
 runtime vimrc
 ```
 
-By default in vim from v7.4, vim will look for configurations in ~/.vim/vimrc
-and ~/.vimrc. But just to be safe, it's good to include this command in ~/.vimrc
+By default in vim from v7.4, vim will look for configurations in `~/.vim/vimrc`
+and `~/.vimrc`. But just to be safe, it's good to include this command in
+`~/.vimrc`.
