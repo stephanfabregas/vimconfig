@@ -40,3 +40,15 @@ echo "runtime vimrc" > ~/.vimrc
 By default in vim from v7.4, vim will look for configurations in `~/.vim/vimrc`
 and `~/.vimrc`. But just to be safe, it's good to include this command in
 `~/.vimrc`.
+
+### Using vim in Putty
+
+Putty terminal emulator for Windows is infamous for its horrible color scheme.
+It is, however, possible to get this vim configuration to work well with Putty.
+In the Putty setup, under Window -> Colours, check the box labeled, "Allow
+terminal to use xterm 256-colour mode" and set the bolded text indication to
+use the font, not the color.
+
+Then, in the `~/.vim/vimrc`, uncomment the if/else statement under the Putty
+section.
+
